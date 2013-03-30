@@ -17,6 +17,7 @@
     "postgresql",
     "tmux",
     "iterm",
+    "sublime2",
     "oh-my-zsh"
   ]
 }
