@@ -6,7 +6,7 @@ end
 dmg_package "JavaForOSX" do
   source "http://support.apple.com/downloads/DL1572/en_US/"
   destination "#{ENV['HOME']}/Applications"
-  volumes_dir "Java for OS X 2012-006"
+  volumes_dir "Java for OS X 2013-002"
   action :install
   type "pkg"
   package_id "com.apple.pkg.JavaForMacOSX107"

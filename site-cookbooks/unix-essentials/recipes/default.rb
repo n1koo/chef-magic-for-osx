@@ -1,6 +1,6 @@
 include_recipe "homebrew"
 
-%w[ack watch readline wget libxml2 the_silver_searcher].each do |pkg|
+%w[watch readline wget vnstat nmap iperf gettext].each do |pkg|
   package pkg
 end
 
