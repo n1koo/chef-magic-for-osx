@@ -1,0 +1,6 @@
+maintainer        "Mynewsdesk"
+maintainer_email  "dev@mynewsdesk.com"
+license           "MIT"
+description       "Adds chefup/bin to PATH"
+version           "1.0.0"
+supports          "mac_os_x"

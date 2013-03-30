@@ -1,0 +1,26 @@
+export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
+export MANPATH="/usr/local/man:$MANPATH"
+export LC_CTYPE=sv_SE.UTF-8
+export CLICOLOR=1
+export LSCOLORS=gxfxcxdxbxegedabagacad
+export TERM=xterm-256color
+export LESS="-R -F -X"
+
+alias b='bundle exec'
+alias testbot='bundle exec rake testbot:rspec 2>&1 | tee tmp/output.txt | grep "^\(Finished.*\.$\|rspec\|\d\+ examples\)"'
+
+if [ -e ~/.completions ]
+then
+  for c in `ls ~/.completions`
+  do
+    source ~/.completions/$c
+  done
+fi
+
+if [ -e ~/.rc.d ]
+then
+  for c in `ls ~/.rc.d`
+  do
+    source ~/.rc.d/$c
+  done
+fi

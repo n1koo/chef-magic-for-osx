@@ -1,0 +1,7 @@
+maintainer        "n1ko"
+maintainer_email  "n1ko@salaliitto.com"
+license           "MIT"
+description       "Install oh-my-zsh"
+version           "1.0.0"
+supports          "mac_os_x"
+depends           "git"

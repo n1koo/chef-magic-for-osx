@@ -1,0 +1,23 @@
+{
+  "user": {
+    "email": "n1ko@salaliitto.com",
+    "name": "Niko Kurtti",
+    "dev_path": "/Users/n1ko/"
+  },
+  "run_list": [
+    "alfred.app",
+    "chrome.app",
+    "dropbox.app",
+    "bash",
+    "git",
+    "vim",
+    "java",
+    "gitx",
+    "unix-essentials",
+    "chefup-bin",
+    "git-pair",
+    "postgresql",
+    "oh-my-zsh"
+  ]
+}
+// vim: ft=javascript
