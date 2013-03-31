@@ -47,10 +47,30 @@ mac_os_x_userdefaults 'Automatically hide and show the Dock' do
   type 'bool'
 end
 
+mac_os_x_userdefaults 'Enable airdrop on ethernet' do
+  domain 'com.apple.NetworkBrowser'
+  key 'BrowseAllInterfaces'
+  value 'true'
+  type 'bool'
+end
+
 mac_os_x_userdefaults 'Avoid creating .DS_Store files on network volumes' do
   domain 'com.apple.desktopservices'
   key 'DSDontWriteNetworkStores'
   value 'true'
   type 'bool'
 end
+
+mac_os_x_userdefaults "enable time machine on unsupported volumes" do
+  domain "com.apple.systempreferences"
+  key "TMShowUnsupportedNetworkVolumes"
+  value "1"
+end
+
+# stuff that cant be done via userdefaults
+
+execute "show ~/Library" do
+    command "chflags nohidden ~/Library"
+end
+
 
