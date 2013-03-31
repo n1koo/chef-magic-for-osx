@@ -1,0 +1,6 @@
+maintainer        "n1ko"
+maintainer_email  "n1ko@salaliitto.com"
+license           "MIT"
+description       "Various osx optimizations"
+version           "1.0.0"
+supports          "mac_os_x"
