@@ -14,3 +14,7 @@ end
 cookbook_file "#{ENV['HOME']}/.rc.d/git-prompt.sh" do
   source "git-prompt.sh"
 end
+
+cookbook_file "#{ENV['HOME']}/.gitignore_global" do
+  source ".gitignore_global"
+end
