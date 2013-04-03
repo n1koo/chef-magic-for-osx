@@ -18,7 +18,7 @@ Setup
 
 Fetch this repo
 
-    git clone https://github.com/chef-magic-for-osx/chefup.git
+    git clone https://github.com/n1koo/chef-magic-for-osx.git
 
 or
 
